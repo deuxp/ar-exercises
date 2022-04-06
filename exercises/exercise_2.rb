@@ -7,5 +7,8 @@ puts "----------"
 # Your code goes here ...
 
 @store1 = Store.first
+p "this is store 1 from the db: #{@store1.name}"
 @store1.name = 'Thornhill'
-p "this is store 1 from the db: #{@store1}"
+p "this is store 1 from the db: #{@store1.name}"
+
+
